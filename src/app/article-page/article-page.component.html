@@ -1,0 +1,22 @@
+<section class="article" *ngIf="article">
+    <div class="blog-card">
+        <img class="image-cls" src="assets/img/imagesblog.png" alt="imageblog">
+        <div>
+            <div class="icons">
+                <mat-icon>account_circle</mat-icon>
+                {{article.id}}
+            </div>
+            <div class="icons">
+                <mat-icon [ngClass]="{'color1':article.userId==='1','color4':article.userId=='4'}">verified</mat-icon>
+                {{article.userId}}
+            </div>
+            <hr>
+            <div class="title-cls">
+                {{article.title}}
+            </div>
+            <div class="content-cls">
+                {{article.body}}
+            </div>
+        </div>
+    </div>
+</section>

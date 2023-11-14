@@ -1,0 +1,39 @@
+.container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: rgb(201, 235, 201);
+}
+
+.bg-color {
+    background-color: rgb(201, 235, 201);
+    width: 100vw;
+    height: 100vh;
+}
+
+.header-cls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(32, 145, 94);
+    color: white;
+    padding-top: 20px;
+}
+
+.input-cls {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: aqua;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 500;
+}
